@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    height: 100vh;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+:root {
+    --primary-font:'Orbitron', sans-serif;
+    --secondary-font:'Poppins', sans-serif;
+}
+
+/* ---------------------------  Navbar  ----------------------------- */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+
+nav img {
+    height: 2.3rem;
+}
+
+nav .list {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    align-items: center;
+}
+
+nav .list-item {
+    list-style: none;
+    font-size: 15px;
+    padding: 2rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav div ul li:first-child {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.navbar-container li:first-child::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 75%;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+nav .button-group {
+    display: flex;
+}
+
+nav .nav-button {
+    width: 123px;
+    padding: 1px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+    background-color: #fff;
+    margin: 3px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    font-family: var(--secondary-font);
+    color: #636161;
+}
+
+nav .search-icon {
+    transform: scale(0.6);
+    cursor: pointer;
+}
+
+
+/*----------------------------- Hero banner section ---------------------- */
+
+section .hero-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    position: relative;
+}
+
+.square {
+    position: absolute;
+    top: 13rem;
+    left: 6.5rem;
+    z-index: -1;
+}
+
+.square img {
+    height: 17rem;
+}
+
+.hero-container > div > img {
+    position: absolute;
+    width: 20rem;
+    top: 2rem;
+}
+
+.star {
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+}
+.star img {
+    height: 3rem;
+}
+.star:nth-child(2) {
+    position: absolute;
+    right: 40rem;
+    top: 25rem;
+}
+.star:nth-child(2) img {
+    height: 30px;
+}
+.globe {
+    position: absolute;
+    right: 42%;
+}
+.globe img {
+    height: 3rem;
+}
+
+
+
+/*----------------------------- Hero container right ------------------------ */
+
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+
+.hero-heading {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+}
+.hero-description {
+    font-family: var(--secondary-font);
+    text-align: center;
+    color: #636161;
+    font-size: 0.75rem;
+    padding: 0 15%;
+}
+
+.button-email {
+    font-family: var(--primary-font);
+    border-radius: 7px;
+    padding: 3px 16px;
+    background-color: #fff;
+    border: 1px solid black;
+    color: #636161;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button-join {
+    font-family: var(--primary-font);
+    border-radius: 7px;
+    padding: 3px 6px;
+    background-color: #000000;
+    border: 1px solid black;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-heading {
+    text-align: center;
+    font-family: var(--secondary-font);
+    color: #636161;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.icons {
+    margin-top: 5px;
+    display: flex;
+}
+
+.icons span img {
+    height: 25px;
+    padding: 4px 7px;
+    cursor: pointer;
+}
