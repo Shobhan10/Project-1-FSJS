@@ -6,8 +6,6 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
 
 ![badge](https://img.shields.io/badge/HTML-CSS-blue)
 
-<br>
-
 ### Screenshot
 
 ![Project-1 Screenshot](./project-1.png)
