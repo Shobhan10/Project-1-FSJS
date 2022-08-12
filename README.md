@@ -19,4 +19,4 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
 
 - It took around _8-9 hours_ to complete.
 
-- Live Link:- %[Street Style Landing Page](https://streetstyle-fsjs1.netlify.app/)
+- Live Link:- [Street Style Landing Page](https://streetstyle-fsjs1.netlify.app/)
