@@ -18,3 +18,5 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
   - Learned to use pseudo element `::after` and learned how to give a styled border bottom.
 
 - It took around _8-9 hours_ to complete.
+
+- Live Link:- %[Street Style Landing Page](https://streetstyle-fsjs1.netlify.app/)
